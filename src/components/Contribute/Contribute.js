@@ -23,7 +23,7 @@ function ContributeCard() {
                         </footer>
                     </blockquote>
                 </Card.Text>
-                <a href="https://github.com/juetcefreshers/opensource-react/blob/main/README.md"><Button variant="primary">Follow this Steps</Button></a>
+                <a href="https://github.com/juetcefreshers/opensource-portfolio/blob/main/README.md"><Button variant="primary">Follow this Steps</Button></a>
             </Card.Body>
 
         </Card>
