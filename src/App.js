@@ -31,7 +31,7 @@ function App() {
       <ScrollToTop />
       <NavbarComponent />
       <Switch>
-        <Route path='/' exact component={HomePage} />
+        <Route path='/opensource-portfolio' exact component={HomePage} />
         <Route path='/comingsoon' exact component={CommingSoonPage} />
         <Route path="/404" component={ErrorPage} />
         <Redirect to="/404" />

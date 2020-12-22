@@ -6,7 +6,7 @@ import etceimage from '../../assets/images/etceimage.png';
 function NavbarComponent() {
     return (
         <Navbar bg="light" expand="lg">
-            <Navbar.Brand href="/">
+            <Navbar.Brand href="/opensource-portfolio">
                 <img
                     alt=""
                     src={etceimage}
@@ -19,7 +19,7 @@ function NavbarComponent() {
             <Navbar.Toggle aria-controls="basic-navbar-nav" />
             <Navbar.Collapse id="basic-navbar-nav">
                 <Nav className="mr-auto">
-                    <Nav.Link href="/">Home</Nav.Link>
+                    <Nav.Link href="/opensource-portfolio">Home</Nav.Link>
                 </Nav>
                 <Form inline>
                     <FormControl type="text" placeholder="Search" className="mr-sm-2 mb-3 mb-md-0" />
